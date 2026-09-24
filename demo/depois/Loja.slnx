@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Loja.AppHost/Loja.AppHost.csproj" />
+  <Project Path="Loja.ServiceDefaults/Loja.ServiceDefaults.csproj" />
+  <Project Path="Loja.Api/Loja.Api.csproj" />
+  <Project Path="Loja.Web/Loja.Web.csproj" />
+</Solution>

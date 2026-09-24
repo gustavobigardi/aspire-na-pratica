@@ -1,0 +1,12 @@
+.DS_Store
+.claude/
+palestra
+bin/
+obj/
+.venv/
+__pycache__/
+.env
+aspire-output/
+*.user
+# Playwright CLI output (may contain credentials)
+.playwright-cli/

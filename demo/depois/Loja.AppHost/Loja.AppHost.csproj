@@ -1,0 +1,25 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.5.4">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>63a72cdb-a9c8-4d48-bb7f-24087431307f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Azure.AppContainers" Version="13.5.4" />
+    <PackageReference Include="Aspire.Hosting.Docker" Version="13.5.4" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.5.4" />
+    <PackageReference Include="Aspire.Hosting.Python" Version="13.5.4" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loja.Api\Loja.Api.csproj" />
+    <ProjectReference Include="..\Loja.Web\Loja.Web.csproj" />
+  </ItemGroup>
+
+</Project>
